@@ -2,7 +2,43 @@ html{
     margin: 0;
     padding: 0;
 }
+body{
+    background-color:rgb(121, 121, 150);
+}
 
-body {
-    background: lightblue;
+#family{
+    text-align:center;
+}
+
+.oceanfloor a.designer{
+    display:inline;
+    color:orange;
+}
+caption{
+    caption-side:bottom;
+}
+.oceanfloor {
+    background:url('../images/oceanfloor.jpg');
+    background-repeat: repeat-x;
+    font-family:"Verdana";
+    padding:10px 50px;
+}
+
+.oceanfloor li{
+    text-decoration: underline;
+}
+
+#california {
+    background-image: url('../images/giphy_sfo.jpg'),url('../images/golden_gate_bridge.jpg');
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+p{
+  color:black;
+}
+#text-header{
+    text-decoration:underline;
+    text-decoration-color:darkgreen;
+    font-family:"Arial";
 }
