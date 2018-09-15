@@ -14,9 +14,7 @@ body{
     display:inline;
     color:orange;
 }
-caption{
-    caption-side:bottom;
-}
+
 .oceanfloor {
     background:url('../images/oceanfloor.jpg');
     background-repeat: repeat-x;
@@ -33,12 +31,14 @@ caption{
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
     padding: 15px;
+    border-bottom: darkgreen;
 }
 p{
   color:black;
 }
-#text-header{
-    text-decoration:underline;
-    text-decoration-color:darkgreen;
+#header-text{
+    /*text-decoration:underline;*/
     font-family:"Arial";
+    border-bottom-color:darkgreen;
+    border-bottom-style:solid;
 }
