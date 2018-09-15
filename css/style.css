@@ -26,6 +26,10 @@ body{
     text-decoration: underline;
 }
 
+h4{
+    font-style: italic;
+    text-decoration-line:underline;
+}
 #california {
     background-image: url('../images/giphy_sfo.jpg'),url('../images/golden_gate_bridge.jpg');
     background-position: right bottom, left top;
@@ -41,4 +45,11 @@ p{
     font-family:"Arial";
     border-bottom-color:darkgreen;
     border-bottom-style:solid;
+}
+#arizona {
+    background-image: url('../images/Antelope_Canyon.jpg'),url('../images/light_background.jpg');
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    border-bottom: darkgreen;
 }
