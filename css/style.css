@@ -53,3 +53,11 @@ p{
     padding: 15px;
     border-bottom: darkgreen;
 }
+
+#design_footer{
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
